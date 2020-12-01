@@ -7,3 +7,5 @@ plain dumb.
 It all depends upon the words you've chosen and how they "fit" into the Madlibs story! 
 
 PR LINK: https://github.com/fadiHB/madlib-cli/pull/1
+
+it tooks :6 h
