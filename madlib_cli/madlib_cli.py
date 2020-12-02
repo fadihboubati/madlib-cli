@@ -39,7 +39,6 @@ def merge (list_new_iteam):
 if __name__ == "__main__":
     greeting ()
     file_path = 'assets/file.txt'
-    new_file_path = 'assets/new_file.txt'
     data_as_string = read_template(file_path)
     data_to_change = parse(data_as_string)
     list_new_iteam = generate_list_items(data_to_change)
