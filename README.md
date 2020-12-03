@@ -6,6 +6,6 @@ What you've created may end up being fantastic, screamingly funny, shocking, sil
 plain dumb.
 It all depends upon the words you've chosen and how they "fit" into the Madlibs story! 
 
-PR LINK: https://github.com/fadiHB/madlib-cli/pull/2
+PR LINK: https://github.com/fadiHB/madlib-cli/pull/3
 
 it tooks :6 h
