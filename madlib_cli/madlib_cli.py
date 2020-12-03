@@ -21,19 +21,18 @@ def parse(data_as_string):
 def generate_list_items (data_to_change ):
     user_list = []
     for i in range(len(data_to_change)):
-        item = int(input(f'Enter a {data_to_change[i]}: '))
+        item =input(f'Enter a {data_to_change[i]}: ')
         user_list.append(item)
     return user_list
 
 def merge (list_new_iteam):
     new_file_path_test = "new_file_test.txt"
-    with open(new_file_path_test,"w+") as new_f:
-        new_f.write('''I the {} and {} {} have {}
+    with open(new_file_path_test, 'w+') as f:
+        template = '''I the {} and {} {} have {}
 {}'s {} sister and plan to steal her {}
-{}!''')
-    with open(new_file_path_test, 'r+') as f:
-        data_as_string = f.read()
-        data_updated = data_as_string.format(list_new_iteam[0],list_new_iteam[1],list_new_iteam[2],list_new_iteam[3],list_new_iteam[4],list_new_iteam[5],list_new_iteam[6],list_new_iteam[7])
+{}!'''
+        data_updated = template.format(list_new_iteam[0],list_new_iteam[1],list_new_iteam[2],list_new_iteam[3],list_new_iteam[4],list_new_iteam[5],list_new_iteam[6],list_new_iteam[7])
+        f.write(data_updated)
         return data_updated
 
 if __name__ == "__main__":
